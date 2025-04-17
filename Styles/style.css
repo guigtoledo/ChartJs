@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #222;
+    text-shadow: 1.8px 1px 1px #5c5b5b ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.graphic {
+    background-color: #c5f8f154;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}
